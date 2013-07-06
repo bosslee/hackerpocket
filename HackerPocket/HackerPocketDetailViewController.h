@@ -10,7 +10,9 @@
 
 @interface HackerPocketDetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic) NSString *url;
+@property (strong, nonatomic) NSString *titleForTweet;
+- (IBAction)twitterShare:(UIBarButtonItem *)sender;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

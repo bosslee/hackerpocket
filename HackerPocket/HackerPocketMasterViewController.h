@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HackerPocketMasterViewController : UITableViewController
+@interface HackerPocketMasterViewController : UITableViewController <NSXMLParserDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *FPTableView;
 
 @end
