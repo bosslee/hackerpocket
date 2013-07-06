@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6E5070E178855C100462472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5070D178855C100462472 /* UIKit.framework */; };
+		E6E50710178855C100462472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5070F178855C100462472 /* Foundation.framework */; };
+		E6E50712178855C100462472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E50711178855C100462472 /* CoreGraphics.framework */; };
+		E6E50718178855C100462472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6E50716178855C100462472 /* InfoPlist.strings */; };
+		E6E5071A178855C100462472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E50719178855C100462472 /* main.m */; };
+		E6E5071E178855C100462472 /* HackerPocketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5071D178855C100462472 /* HackerPocketAppDelegate.m */; };
+		E6E50720178855C100462472 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E5071F178855C100462472 /* Default.png */; };
+		E6E50722178855C100462472 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E50721178855C100462472 /* Default@2x.png */; };
+		E6E50724178855C100462472 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E50723178855C100462472 /* Default-568h@2x.png */; };
+		E6E50727178855C100462472 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E50725178855C100462472 /* MainStoryboard.storyboard */; };
+		E6E5072A178855C100462472 /* HackerPocketMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E50729178855C100462472 /* HackerPocketMasterViewController.m */; };
+		E6E5072D178855C100462472 /* HackerPocketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5072C178855C100462472 /* HackerPocketDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6E5070A178855C100462472 /* HackerPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E5070D178855C100462472 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6E5070F178855C100462472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6E50711178855C100462472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6E50715178855C100462472 /* HackerPocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackerPocket-Info.plist"; sourceTree = "<group>"; };
+		E6E50717178855C100462472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6E50719178855C100462472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6E5071B178855C100462472 /* HackerPocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerPocket-Prefix.pch"; sourceTree = "<group>"; };
+		E6E5071C178855C100462472 /* HackerPocketAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerPocketAppDelegate.h; sourceTree = "<group>"; };
+		E6E5071D178855C100462472 /* HackerPocketAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerPocketAppDelegate.m; sourceTree = "<group>"; };
+		E6E5071F178855C100462472 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6E50721178855C100462472 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E6E50723178855C100462472 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E6E50726178855C100462472 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E6E50728178855C100462472 /* HackerPocketMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerPocketMasterViewController.h; sourceTree = "<group>"; };
+		E6E50729178855C100462472 /* HackerPocketMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerPocketMasterViewController.m; sourceTree = "<group>"; };
+		E6E5072B178855C100462472 /* HackerPocketDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerPocketDetailViewController.h; sourceTree = "<group>"; };
+		E6E5072C178855C100462472 /* HackerPocketDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerPocketDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E50707178855C100462472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E5070E178855C100462472 /* UIKit.framework in Frameworks */,
+				E6E50710178855C100462472 /* Foundation.framework in Frameworks */,
+				E6E50712178855C100462472 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6E50701178855C100462472 = {
+			isa = PBXGroup;
+			children = (
+				E6E50713178855C100462472 /* HackerPocket */,
+				E6E5070C178855C100462472 /* Frameworks */,
+				E6E5070B178855C100462472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E5070B178855C100462472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E5070A178855C100462472 /* HackerPocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E5070C178855C100462472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E5070D178855C100462472 /* UIKit.framework */,
+				E6E5070F178855C100462472 /* Foundation.framework */,
+				E6E50711178855C100462472 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E50713178855C100462472 /* HackerPocket */ = {
+			isa = PBXGroup;
+			children = (
+				E6E5071C178855C100462472 /* HackerPocketAppDelegate.h */,
+				E6E5071D178855C100462472 /* HackerPocketAppDelegate.m */,
+				E6E50725178855C100462472 /* MainStoryboard.storyboard */,
+				E6E50728178855C100462472 /* HackerPocketMasterViewController.h */,
+				E6E50729178855C100462472 /* HackerPocketMasterViewController.m */,
+				E6E5072B178855C100462472 /* HackerPocketDetailViewController.h */,
+				E6E5072C178855C100462472 /* HackerPocketDetailViewController.m */,
+				E6E50714178855C100462472 /* Supporting Files */,
+			);
+			path = HackerPocket;
+			sourceTree = "<group>";
+		};
+		E6E50714178855C100462472 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E50715178855C100462472 /* HackerPocket-Info.plist */,
+				E6E50716178855C100462472 /* InfoPlist.strings */,
+				E6E50719178855C100462472 /* main.m */,
+				E6E5071B178855C100462472 /* HackerPocket-Prefix.pch */,
+				E6E5071F178855C100462472 /* Default.png */,
+				E6E50721178855C100462472 /* Default@2x.png */,
+				E6E50723178855C100462472 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E50709178855C100462472 /* HackerPocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E50730178855C100462472 /* Build configuration list for PBXNativeTarget "HackerPocket" */;
+			buildPhases = (
+				E6E50706178855C100462472 /* Sources */,
+				E6E50707178855C100462472 /* Frameworks */,
+				E6E50708178855C100462472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerPocket;
+			productName = HackerPocket;
+			productReference = E6E5070A178855C100462472 /* HackerPocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E50702178855C100462472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HackerPocket;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = bybosslee;
+			};
+			buildConfigurationList = E6E50705178855C100462472 /* Build configuration list for PBXProject "HackerPocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6E50701178855C100462472;
+			productRefGroup = E6E5070B178855C100462472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E50709178855C100462472 /* HackerPocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E50708178855C100462472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E50718178855C100462472 /* InfoPlist.strings in Resources */,
+				E6E50720178855C100462472 /* Default.png in Resources */,
+				E6E50722178855C100462472 /* Default@2x.png in Resources */,
+				E6E50724178855C100462472 /* Default-568h@2x.png in Resources */,
+				E6E50727178855C100462472 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E50706178855C100462472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E5071A178855C100462472 /* main.m in Sources */,
+				E6E5071E178855C100462472 /* HackerPocketAppDelegate.m in Sources */,
+				E6E5072A178855C100462472 /* HackerPocketMasterViewController.m in Sources */,
+				E6E5072D178855C100462472 /* HackerPocketDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6E50716178855C100462472 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E50717178855C100462472 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6E50725178855C100462472 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E50726178855C100462472 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E5072E178855C100462472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6E5072F178855C100462472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E50731178855C100462472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerPocket/HackerPocket-Prefix.pch";
+				INFOPLIST_FILE = "HackerPocket/HackerPocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6E50732178855C100462472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerPocket/HackerPocket-Prefix.pch";
+				INFOPLIST_FILE = "HackerPocket/HackerPocket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E50705178855C100462472 /* Build configuration list for PBXProject "HackerPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E5072E178855C100462472 /* Debug */,
+				E6E5072F178855C100462472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E50730178855C100462472 /* Build configuration list for PBXNativeTarget "HackerPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E50731178855C100462472 /* Debug */,
+				E6E50732178855C100462472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E50702178855C100462472 /* Project object */;
+}
