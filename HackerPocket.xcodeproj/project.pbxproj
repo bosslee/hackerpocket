@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E67810DA178C66C9009A2CAD /* hackerpocket.png in Resources */ = {isa = PBXBuildFile; fileRef = E67810D9178C66C9009A2CAD /* hackerpocket.png */; };
+		E67810DC178C66CE009A2CAD /* hackerpocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E67810DB178C66CE009A2CAD /* hackerpocket@2x.png */; };
+		E67810DE178C6AFA009A2CAD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E67810DD178C6AFA009A2CAD /* Default@2x.png */; };
+		E67810E0178C6AFE009A2CAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E67810DF178C6AFE009A2CAD /* Default-568h@2x.png */; };
+		E67810E2178C6B02009A2CAD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E67810E1178C6B02009A2CAD /* Default.png */; };
 		E6E5070E178855C100462472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5070D178855C100462472 /* UIKit.framework */; };
 		E6E50710178855C100462472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5070F178855C100462472 /* Foundation.framework */; };
 		E6E50712178855C100462472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E50711178855C100462472 /* CoreGraphics.framework */; };
 		E6E50718178855C100462472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6E50716178855C100462472 /* InfoPlist.strings */; };
 		E6E5071A178855C100462472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E50719178855C100462472 /* main.m */; };
 		E6E5071E178855C100462472 /* HackerPocketAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5071D178855C100462472 /* HackerPocketAppDelegate.m */; };
-		E6E50720178855C100462472 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E5071F178855C100462472 /* Default.png */; };
-		E6E50722178855C100462472 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E50721178855C100462472 /* Default@2x.png */; };
-		E6E50724178855C100462472 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E50723178855C100462472 /* Default-568h@2x.png */; };
 		E6E50727178855C100462472 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E50725178855C100462472 /* MainStoryboard.storyboard */; };
 		E6E5072A178855C100462472 /* HackerPocketMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E50729178855C100462472 /* HackerPocketMasterViewController.m */; };
 		E6E5072D178855C100462472 /* HackerPocketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5072C178855C100462472 /* HackerPocketDetailViewController.m */; };
@@ -23,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E67810D9178C66C9009A2CAD /* hackerpocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hackerpocket.png; sourceTree = "<group>"; };
+		E67810DB178C66CE009A2CAD /* hackerpocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hackerpocket@2x.png"; sourceTree = "<group>"; };
+		E67810DD178C6AFA009A2CAD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		E67810DF178C6AFE009A2CAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		E67810E1178C6B02009A2CAD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		E6E5070A178855C100462472 /* HackerPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E5070D178855C100462472 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6E5070F178855C100462472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,9 +40,6 @@
 		E6E5071B178855C100462472 /* HackerPocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerPocket-Prefix.pch"; sourceTree = "<group>"; };
 		E6E5071C178855C100462472 /* HackerPocketAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerPocketAppDelegate.h; sourceTree = "<group>"; };
 		E6E5071D178855C100462472 /* HackerPocketAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerPocketAppDelegate.m; sourceTree = "<group>"; };
-		E6E5071F178855C100462472 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		E6E50721178855C100462472 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		E6E50723178855C100462472 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E6E50726178855C100462472 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E6E50728178855C100462472 /* HackerPocketMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerPocketMasterViewController.h; sourceTree = "<group>"; };
 		E6E50729178855C100462472 /* HackerPocketMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerPocketMasterViewController.m; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 		E6E50701178855C100462472 = {
 			isa = PBXGroup;
 			children = (
+				E67810DB178C66CE009A2CAD /* hackerpocket@2x.png */,
+				E67810D9178C66C9009A2CAD /* hackerpocket.png */,
 				E6E5073317887AF700462472 /* Social.framework */,
 				E6E50713178855C100462472 /* HackerPocket */,
 				E6E5070C178855C100462472 /* Frameworks */,
@@ -105,13 +111,13 @@
 		E6E50714178855C100462472 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E67810E1178C6B02009A2CAD /* Default.png */,
+				E67810DF178C6AFE009A2CAD /* Default-568h@2x.png */,
+				E67810DD178C6AFA009A2CAD /* Default@2x.png */,
 				E6E50715178855C100462472 /* HackerPocket-Info.plist */,
 				E6E50716178855C100462472 /* InfoPlist.strings */,
 				E6E50719178855C100462472 /* main.m */,
 				E6E5071B178855C100462472 /* HackerPocket-Prefix.pch */,
-				E6E5071F178855C100462472 /* Default.png */,
-				E6E50721178855C100462472 /* Default@2x.png */,
-				E6E50723178855C100462472 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,10 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E50718178855C100462472 /* InfoPlist.strings in Resources */,
-				E6E50720178855C100462472 /* Default.png in Resources */,
-				E6E50722178855C100462472 /* Default@2x.png in Resources */,
-				E6E50724178855C100462472 /* Default-568h@2x.png in Resources */,
 				E6E50727178855C100462472 /* MainStoryboard.storyboard in Resources */,
+				E67810DA178C66C9009A2CAD /* hackerpocket.png in Resources */,
+				E67810DC178C66CE009A2CAD /* hackerpocket@2x.png in Resources */,
+				E67810DE178C6AFA009A2CAD /* Default@2x.png in Resources */,
+				E67810E0178C6AFE009A2CAD /* Default-568h@2x.png in Resources */,
+				E67810E2178C6B02009A2CAD /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +317,7 @@
 				E6E50732178855C100462472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
